@@ -1,0 +1,5 @@
+.DS_Store
+
+# Fichier de verrouillage temporaire créé par PowerPoint quand le .pptx
+# source est ouvert — jamais du contenu réel, jamais à versionner.
+~$*.pptx

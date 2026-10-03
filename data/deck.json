@@ -1,0 +1,194 @@
+{
+  "meta": {
+    "title": "Accompagnement patrimonial",
+    "client": "Prénom Nom",
+    "date": "2026-09-22",
+    "chapitres": [
+      { "numero": "01", "libelle": "Mon métier" },
+      { "numero": "02", "libelle": "Le patrimoine" },
+      { "numero": "03", "libelle": "Relevé patrimonial" }
+    ]
+  },
+  "slides": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "kicker": "Prénom Nom",
+      "title": "Accompagnement patrimonial"
+    },
+    {
+      "id": "cadre-relation",
+      "type": "cadre-relation",
+      "chapitreActif": 1,
+      "titre": "Quel cadre pour notre relation ?",
+      "states": [{}, {}],
+      "etapes": [
+        {
+          "label": "Aujourd'hui",
+          "bullets": [
+            "Me présenter : le cadre dans lequel je travaille, et ce que je peux t'apporter",
+            "Ce qu'on entend par patrimoine, comment le constituer et l'optimiser",
+            "Analyse de ta situation familiale, financière et fiscale actuelle"
+          ]
+        },
+        {
+          "label": "Prochain RDV",
+          "bullets": [
+            "Présentation des solutions adaptées à tes besoins"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mon-metier",
+      "type": "mon-metier",
+      "chapitreActif": 1,
+      "titre": "Mon métier",
+      "intro": "Trouver et mettre en place des solutions pour aider des personnes à :",
+      "states": [{}, {}, {}, {}, {}],
+      "missions": [
+        {
+          "icon": "capital",
+          "label": "Ton patrimoine",
+          "texte": "Se constituer ou accroitre leur patrimoine"
+        },
+        {
+          "icon": "sablier",
+          "label": "Ta retraite",
+          "texte": "Préparer leur retraite"
+        },
+        {
+          "icon": "bouclier",
+          "label": "Tes proches",
+          "texte": "Protéger leur proche"
+        },
+        {
+          "icon": "economie-impot",
+          "label": "Ta fiscalité",
+          "texte": "Optimiser leur fiscalité"
+        }
+      ],
+      "conclusion": "Accompagner durablement"
+    },
+    {
+      "id": "reseau-prodemial",
+      "type": "reseau-prodemial",
+      "chapitreActif": 1,
+      "titre": "Solutions d'investissement",
+      "intro": "Une offre complète, pour sélectionner en toute liberté les solutions patrimoniales",
+      "offreLabel": "Offre référencée et négociée par :",
+      "reseau": "Réseau Prodémial",
+      "states": [{}, {}, {}],
+      "poles": [
+        { "id": "financement", "specialite": "Financement" },
+        { "id": "immobilier", "specialite": "Immobilier" },
+        { "id": "placement", "specialite": "Placement" }
+      ]
+    },
+    {
+      "id": "partenaires",
+      "type": "partenaires",
+      "chapitreActif": 1,
+      "titre": "Les partenaires de Stellium",
+      "intro": "Des partenaires de renom et de confiance",
+      "image": "assets/partenaires-stellium.png"
+    },
+    {
+      "id": "benefices",
+      "type": "benefices",
+      "chapitreActif": 1,
+      "titre": "Quels bénéfices ?",
+      "states": [{}, {}, {}, {}],
+      "items": [
+        { "texte": "Un accès facilité à des opportunités d'investissement jusque-là réservées à une certaine catégorie de clientèle" },
+        { "texte": "Un suivi et accompagnement de qualité dans la durée" },
+        { "texte": "Un interlocuteur unique" },
+        { "texte": "Pas d'honoraires", "detail": "Rémunération par mes partenaires sur les investissements réalisés" }
+      ]
+    },
+    {
+      "id": "conditions",
+      "type": "conditions",
+      "chapitreActif": 1,
+      "titre": "Des conditions d'exercice très strictes",
+      "states": [{}, {}, {}, {}, {}],
+      "items": [
+        { "texte": "Honorabilité" },
+        { "texte": "Confidentialité" },
+        { "texte": "Détention d'habilitations spécifiques" },
+        { "texte": "Obligations de formations initiales et continues" },
+        { "texte": "Souscription d'une assurance de responsabilité civile professionnelle" }
+      ]
+    },
+    {
+      "id": "patrimoine",
+      "type": "patrimoine",
+      "chapitreActif": 2,
+      "titre": "Le patrimoine",
+      "states": [{}, {}, {}],
+      "toit": ["Patrimoine", "Professionnel et privé"],
+      "piliers": [
+        { "id": "immobilier", "texte": "Immobilier" },
+        { "id": "placements", "texte": "Placements" }
+      ]
+    },
+    {
+      "id": "vie-patrimoine",
+      "type": "vie-patrimoine",
+      "chapitreActif": 2,
+      "titre": "La vie d'un patrimoine",
+      "states": [{}, {}, {}, {}, {}],
+      "phases": [
+        { "id": "constitution", "texte": "Constitution" },
+        { "id": "optimisation", "texte": "Optimisation" },
+        { "id": "utilisation", "texte": "Utilisation" },
+        { "id": "transmission", "texte": "Transmission" }
+      ]
+    },
+    {
+      "id": "dynamiser",
+      "type": "dynamiser",
+      "chapitreActif": 2,
+      "titre": "Comment dynamiser son patrimoine ?",
+      "situation": "Ta situation",
+      "states": [{}, {}, {}, {}, {}],
+      "leviers": [
+        { "id": "financement", "texte": "Financement" },
+        { "id": "liquidites", "texte": "Liquidités" },
+        { "id": "impots", "texte": "Économie d'impôts" }
+      ],
+      "resultat": [
+        "+ De capital",
+        "+ De patrimoine",
+        "+ De protection de la famille",
+        "+ De retraite"
+      ]
+    },
+    {
+      "id": "criteres",
+      "type": "criteres",
+      "chapitreActif": 2,
+      "titre": "Les critères à valider",
+      "states": [{}],
+      "criteres": [
+        { "id": "securite", "texte": "SÉCURITÉ" },
+        { "id": "rentabilite", "texte": "RENTABILITÉ" },
+        { "id": "disponibilite", "texte": "DISPONIBILITÉ" }
+      ],
+      "equilibre": "EQUILIBRE"
+    },
+    {
+      "id": "conclusion",
+      "type": "conclusion",
+      "chapitreActif": 2,
+      "titre": "Dynamiser son patrimoine",
+      "intro": "En conclusion, pour bien réussir ses investissements il est nécessaire :",
+      "states": [{}, {}, {}],
+      "items": [
+        { "texte": "D'avoir accès à une large gamme de solutions" },
+        { "texte": "De s'assurer de la cohérence de la solution proposée avec sa situation, ses besoins et objectifs" },
+        { "texte": "Et enfin, de bénéficier d'un accompagnement personnalisé." }
+      ]
+    }
+  ]
+}
